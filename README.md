@@ -5,7 +5,24 @@ Mobil ve oyun tarafında, tek kod tabanından birden fazla platforma çıkan ür
 
 ## 🚀 Yayında olanlar
 
-Üçü de şu anda çalışıyor — kurulum yok, linke tıkla yeter.
+Dördü de şu anda yayında: üçü tarayıcıda açılıyor, Şıp Windows için ücretsiz indirilebiliyor.
+
+### 🫧 [Şıp: Eve Dönüş](https://bakibacaci.itch.io/plip) — slime fizik bulmaca oyunu
+`Unity 6` · `C#` · `HLSL shader` · `URP 2D` · `UI Toolkit`
+
+[![Şıp: Eve Dönüş](assets/sip-kapak.jpg)](https://bakibacaci.itch.io/plip)
+
+Evine dönmeye çalışan yapışkan bir slime'ı tutup gerip fırlatıyorsun. Slime yüzlerce parçacıktan oluşan gerçek bir yapışkan sıvı olarak hesaplanıyor ve özel shader'larla üç boyutlu bir jöle gibi çiziliyor. Tahtaya yapışıyor, ızgaradan bal gibi süzülüyor, karda donup kırılıyor, güneşte eriyor, boyalarla renk değiştirip karışıyor.
+
+- **Kendi fizik motoru:** viskoelastik parçacık simülasyonu (yapışma, plastik yaylar, viskozite, sıcaklık, renk karışımı), Unity'den bağımsız C# kütüphanesi
+- **Kendi çizim hattı:** parçacıklardan yükseklik alanı, kırılma, ışık ve yüzey ifadeleri üreten HLSL shader'lar; arayüz de aynı jöle görünümüyle koddan kuruluyor
+- **5 dünya, 24 bulmaca:** her bölüm bir "aha" fikri üzerine; çözülebilirlik ve par sayıları kendi yazdığım ışın aramalı (beam search) bölüm çözücüsüyle doğrulanıyor
+- **Bölüm düzenleyici** ve paylaşım kodları, 19 başarım, kostüm dolabı, Türkçe ve İngilizce
+- **Mağaza görselleri oyunun kendi motoruyla üretiliyor:** kapsüller, logo ve ekran görüntülerini çeken otomatik bir yakalama modu
+
+![Oyundan kareler](assets/sip-ekranlar.jpg)
+
+▶️ **[itch.io'dan indir](https://bakibacaci.itch.io/plip)** (Windows, ücretsiz)
 
 ### 🎲 [Blöf](https://blof-64f01.web.app) — çok oyunculu parti oyunu
 `Expo (React Native)` · `TypeScript` · `Firebase Realtime Database` · `Firebase Hosting`
@@ -33,8 +50,8 @@ Arkadaş grubuyla telefondan oynanan Türkçe blöf/tahmin oyunu. Herkes kendi t
 **Mobil** — React Native (Expo) · Flutter · Dart · Android Studio
 **Web ve diller** — TypeScript · JavaScript · C# · Java · Python · HTML · CSS
 **Veri ve servis** — Firebase (Realtime Database, Authentication, Hosting) · SQL
-**Oyun** — Unity · C#
-**Araçlar** — Git · Expo CLI · Firebase CLI · Visual Studio · VS Code
+**Oyun** — Unity (URP, UI Toolkit) · C# · HLSL shader · parçacık fiziği
+**Araçlar** — Git · Expo CLI · Firebase CLI · Visual Studio · VS Code · itch.io butler
 
 Yapay zekâ araçlarını kod yazma, hata ayıklama, araştırma ve görsel üretiminde günlük iş akışımın parçası olarak kullanıyorum.
 
