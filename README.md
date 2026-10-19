@@ -1,6 +1,6 @@
 # Merhaba, ben Baki 👋
 
-Kırıkkale Üniversitesi **Bilgisayar Programcılığı** son sınıf öğrencisiyim (mezuniyet: 2026).
+Kırıkkale Üniversitesi **Bilgisayar** son sınıf öğrencisiyim (mezuniyet: 2026).
 Mobil ve oyun tarafında, tek kod tabanından birden fazla platforma çıkan ürünler geliştiriyorum.
 
 ## 🚀 Yayında olanlar
